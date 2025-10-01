@@ -17,6 +17,12 @@ body{
     padding:  40px 35px;
     text-align: center;
 }
+.waseth{
+    margin-bottom: 60px;
+}
+.waseth h1{
+    text-align: center;
+}
 .search{
     width: 100%;
     display: flex;
