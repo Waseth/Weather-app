@@ -34,12 +34,10 @@ body{
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
-    flex: 1;
-    margin-right: 20px;
     font-size: 18px;
+    text-align: center;
 }
 .search button{
     border: 0;
@@ -109,10 +107,9 @@ body{
     flex-direction: column;
   }
   .search input{
-    margin: 5px auto 0;
-    height: 60px;
-    padding: 20px;
     text-align: center;
+    max-width: 280px;
+    width: 100%;
   }
   .search button{
     margin: 20px auto 0;
@@ -131,7 +128,10 @@ body{
 @media (min-width: 481px) and (max-width: 1024px) {
 
 }
-
+    .search input{
+        max-width: 300px;
+        width: 100%;
+    }
 /* laptops and desktops */
 @media (min-width: 1025px) {
 
